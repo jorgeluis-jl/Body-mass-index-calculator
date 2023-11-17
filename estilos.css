@@ -1,0 +1,40 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.valores {
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+}
+
+#mensagemErro {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 4px;
+    color: red;
+}
+
+#resultados {
+    display: none;
+}
+
+.resultado {
+    font-weight: bold;
+}
+
+#resultadoIMC {
+    color: #990000;
+}
+
+.resultadoIntervaloIMC {
+    background-color: #999999;
+    color: #990000;
+}
